@@ -1,0 +1,23 @@
+https://github.com/TJOETJOE/uts-mobile-programming.git
+
+Jawaban Soal 1 - 5 UTS
+
+1. Mobile computing adalah konsep komputasi di mana pengguna dapat mengakses data, aplikasi, dan layanan digital kapan saja dan di mana saja menggunakan perangkat bergerak seperti smartphone, tablet, atau laptop. Teknologi ini memanfaatkan koneksi nirkabel seperti WiFi atau jaringan seluler. Ciri utamanya yaitu perangkat portabel, akses tanpa kabel, pengguna bisa berpindah tempat saat menggunakan aplikasi, dan kondisi lingkungan yang dinamis (lokasi, sinyal, dan daya berubah-ubah).
+
+2. Aplikasi mobile adalah software yang dirancang untuk berjalan pada perangkat mobile seperti Android dan iOS.
+   Tiga kategori aplikasi mobile:
+   a. Aplikasi native, yaitu aplikasi yang dibuat khusus untuk satu platform tertentu seperti Android (Java/Kotlin) atau iOS (Swift).
+   b. Aplikasi web mobile, yaitu aplikasi yang dijalankan melalui browser dan tidak perlu diinstal, dibuat dengan HTML, CSS, dan JavaScript.
+   c. Aplikasi hybrid, yaitu aplikasi gabungan antara native dan web, dibuat dengan teknologi web dan dikemas agar bisa diinstal seperti aplikasi biasa.
+
+3. Empat siklus activity dalam Android:
+   a. onCreate(), dipanggil saat activity pertama kali dibuat. Digunakan untuk inisialisasi layout dan komponen.
+   b. onStart(), dipanggil ketika activity mulai terlihat di layar, tetapi belum aktif sepenuhnya.
+   c. onResume(), dipanggil saat activity aktif penuh dan siap menerima interaksi pengguna.
+   d. onPause(), dipanggil saat activity mulai tertutup sebagian, misalnya karena berpindah ke activity lain. Biasanya digunakan untuk menghentikan proses sementara atau menyimpan data.
+
+4. Widget adalah komponen antarmuka pengguna (UI) yang digunakan untuk membangun tampilan aplikasi. Dalam pemrograman seperti Flutter, hampir semua elemen pada layar merupakan widget, misalnya teks, gambar, tombol, dan layout. Widget digunakan untuk mengatur tampilan visual dan perilaku elemen UI.
+
+5. StatelessWidget adalah widget yang tidak memiliki state atau data yang dapat berubah, sehingga tampilannya bersifat statis dan tidak akan berubah selama aplikasi berjalan kecuali dibuat ulang dari luar. Cocok untuk tampilan yang tidak berubah, seperti teks statis atau ikon.
+   StatefulWidget adalah widget yang memiliki state atau data yang dapat berubah ketika aplikasi berjalan. Ketika state berubah, UI akan diperbarui. Cocok untuk elemen dinamis seperti input form, counter, animasi, dan data yang berubah.
+
